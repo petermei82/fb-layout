@@ -1,0 +1,384 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    height: 56px;
+    width: calc(100%-30px);
+    background-color: #242526;
+    /* padding: 0 5px; */
+    /* position: fixed; */
+}
+.left-btn{
+    height: 56px;
+    width: 360px;
+    /* background-color: aquamarine; */
+    padding: 0px 20px;
+    float: left;
+}
+.fbIcon{
+    height: 40px;
+    width: 40px;
+    /* background-color: aqua; */
+    float: left;
+    margin: 9px 10px 0 0; 
+}
+.search{
+    height: 40px;
+    width: 280px;
+    float: left;
+    margin: 9px 0 0 0;
+    background-color: #3a3b3c;
+    color: #b0b3b8;
+    line-height: 40px;            
+    padding-left: 20px;
+    position: relative;
+    border-radius: 50px;
+}
+.search_fb{
+    font-size: 15px;
+    color: #b0b3b8;
+    background-color: #3a3b3c;
+    border: 0;
+    outline:none
+}
+.mid-btn{
+    height: 56px;
+    width: 700px;
+    /* float: left; */
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    /* background-color: darkblue; */
+}
+.mbtn{
+    height: 56px;
+    width: 130px;
+    float: left;
+    background-size: contain;
+    background-position: center;
+    margin: 0 0 0 5px;
+    transform: translateX(20%);
+    border-radius: 10px;
+}
+.home{
+    background-image: url(./../fb_images/home.png);
+    
+}
+.home:hover{
+    background-image: url(./../fb_images/home_hover.png);
+}
+
+.friend{
+    background-image: url(./../fb_images/friend.png);
+}
+.friend:hover{
+    background-image: url(./../fb_images/friend_hover.png);
+}
+.watch{
+    background-image: url(./../fb_images/watch.png);
+}
+.watch:hover{
+    background-image: url(./../fb_images/watch_hover.png);
+}
+.market{
+    background-image: url(./../fb_images/market.png);
+}
+.market:hover{
+    background-image: url(./../fb_images/market_hover.png);
+}
+.game{
+    background-image: url(./../fb_images/game.png);
+}
+.game:hover{
+    background-image: url(./../fb_images/game_hover.png);
+}
+.right-btn{
+    height: 56px;
+    width: 350px;
+    float: right;
+    /* margin:0 0 0 100%; */
+    /* background-color: blueviolet; */
+    padding: 0px 20px;
+}
+.id{
+    height: 33px;
+    width: 85px;
+    float: right;
+    margin-top: 12px;
+    border-radius: 20px;
+    position: relative;
+    /* background-color: #f7b928; */
+}
+.id:hover{
+    background-color: #838587;
+}
+.userAvast{
+    height: 26px;
+    width: 26px;
+    background-image: url(./../fb_images/id.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    border-radius: 50%;
+    float: left;
+    position: relative;
+    top: 4px;
+    left: 3px;
+    margin-right: 5px;
+}
+.userName{
+    color: #dadce1;
+    line-height: 35px;
+    font-weight: bold;
+}
+
+.rbtn{
+    height: 40px;
+    width: 40px;
+    float: right;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    position: relative;
+    top: 9px;
+    margin-left: 5px;
+    /* padding: 0 5px; */
+    /* background-repeat: no-repeat; */
+    /* background-size:contain; */
+    /* background-position: center; */
+}
+.account{
+    background-image: url(./../fb_images/account.png);
+}
+.account:hover{
+    background-image: url(./../fb_images/account_hover.png);
+}
+.notify{
+    background-image: url(./../fb_images/notify.png);
+}
+.notify:hover{
+    background-image: url(./../fb_images/notify_hover.png);
+}
+.messenger{
+    background-image: url(./../fb_images/messenge.png);
+}
+.messenger:hover{
+    background-image: url(./../fb_images/messenge_hover.png);
+}
+.menu{
+    background-image: url(./../fb_images/menu.png);
+}
+.menu:hover{
+    background-image: url(./../fb_images/menu_hover.png);
+}
+.main{
+    height: 556px;
+    background:linear-gradient(#e9dfc6 0%, #242526 65%);
+}
+.mid{
+    height: 556px;
+    width: 950px;
+    /* background-color: gold; */
+    margin: 0 auto;
+    position: relative;
+}
+/* .avater{
+    height: 135px;
+    width: 135px;
+    border: 3px solid ;
+    background-color: aquamarine;
+    position: absolute;
+    bottom: 25px;
+    left: 30px;
+    border-radius: 50%;
+    background-image: url(./../fb_images/avater.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center; */
+/* } */
+.avater_picture{
+    height: 135px;
+    width: 135px;
+    border: 5px solid #242526;
+    position: absolute;
+    bottom: 90px;
+    left: 30px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
+}
+/* .bgi{
+    height: 350px;
+    background-image: url(./../fb_images/bg_image.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    /* border-radius: 3%; */
+/* }  */
+.bgi_link{
+    height: 350px;
+    border-radius: 0 0 10px 10px;
+}
+.user{
+    height: 136px;
+    width: 950px;
+    /* background-color: #dadce1; */
+    position: relative;
+}
+.user_name{
+    height: 80px;
+    width: 390px;
+    /* background-color: rebeccapurple; */
+    position: absolute;
+    top: 38px;
+    left: 195px;
+}
+.name_title{
+    font-size: 28px;
+    margin-top: 2px;
+    margin-bottom: 1px;
+    font-weight: bold;
+    color: #e4e6eb;
+}
+.name_describe{
+    font-size: 18px;
+    float: left;
+    position: relative;
+    color: #b0b3b8;
+}
+.name_describe1{
+    float: left;
+}
+.star{
+    color: #f7b928;
+    float: left;
+    
+}
+.name_describe2{
+    float: left;
+    
+}
+.user_link{
+    height: 82px;
+    width: 345px;
+    /* background-color: yellowgreen; */
+    position: absolute;
+    top: 68px;
+    right: 20px;
+}
+/* .link_video{
+    height: 40px;
+    width: 312px;
+    background-color: #2374e1;
+    color: #e4e6eb;
+    position: absolute;
+    top: 5px;
+    right:20px;                                      
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align:center;
+    line-height: 40px;
+    } */
+.video_link{
+    height: 40px;
+    width: 312px;
+    background-color: #2374e1;
+    color: #e4e6eb;
+    position: absolute;
+    top: 5px;
+    right:20px;                                      
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align:center;
+    line-height: 40px;
+    color: #e4e6eb;
+    text-decoration: none;
+}
+.video_link:hover{
+    background-color: #7aa3db;
+}
+.link_but{
+    height: 40px;
+    width: 312px;
+    /* background-color: #f7b928; */
+    color: #a6a9ad;
+    position: absolute;
+    bottom: 5px;
+    right: 20px;
+    text-align: center;
+    line-height: 40px;
+}
+.bot_btn{
+    height: 60px;
+    width: 880px;
+    /* background-color: #2374e1; */
+    margin: 0 auto;
+    border-top: 1px solid #3e3f41;
+}
+.bbtn{
+    height: 56px;
+    width: 62px;
+    background-color: #242526;
+    float: left;
+    font-size: 15px;
+    font-weight: bold;
+    color: #b0b3b8;
+    text-align: center;
+    line-height: 60px;
+    margin-top: 4px;
+    border-radius: 10px;
+}
+.bbtn:hover{
+    background-color: #3a3b3c;
+}
+.bbtnr{
+    height: 36px;
+    width: 48px;
+    background-color: #3a3b3c;
+    color: #e4e6eb;
+    float: right;
+    margin: 13px 0px 0px 0px;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 40px;
+}
+.bbtnr:hover{
+    background-color: #848689;
+}
+.bbtnr_bbr2{
+    height: 36px;
+    width: 48px;
+    background-color: #3a3b3c;
+    color: #e4e6eb;
+    float: right;
+    margin: 13px 5px 0px 0px;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 35px;
+}
+.bbtnr_bbr2:hover{
+    background-color: #848689;
+}
+.bbtnr_bbr3{
+    height: 36px;
+    width: 117px;
+    background-color: #263951;
+    color: #2d88ff;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 35px;
+    float: right;
+    margin: 13px 5px 0px 0px;
+    border-radius: 10px;
+}
+.bbtnr_bbr3:hover{
+    background-color: #6781a3;
+}
